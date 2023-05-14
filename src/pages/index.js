@@ -10,10 +10,10 @@ const Home = () => {
 	return (
 		<>
 			<Head>
-				<title>Joel's Portfolio</title>
-				<meta name="description" content="Joel's Portfolio" />
+				<title>Samuel-Green.com</title>
+				<meta name="description" content="Samuel-Green.com" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="icon" href="/favicon.jpeg" />
+				<link rel="icon" href="/favicon.png" />
 			</Head>
 			<div>
 				<Hero />

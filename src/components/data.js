@@ -4,7 +4,7 @@ export const projectData = [
 		title: 'Gilboa.com',
 		image: '/../public/images/snek-main.png',
 		description:
-			'A sample build of a website for a friend of an app for information and sales about tree boas and pythons. Simple admin dashboard allows management of for sale posts. Built with Java/Spring, JSP, and',
+			'A sample build of a website done for a friend, with information on, and sales of tree boas and pythons. Simple admin dashboard allows management of for sale posts. Built with Java/Spring.',
 		gitHubLink: 'https://github.com/SamuelGreen800/snakes',
 	},
 	{

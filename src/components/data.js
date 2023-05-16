@@ -1,37 +1,24 @@
 export const projectData = [
 	{
 		id: 1,
-		title: 'Todo List App',
+		title: 'Gilboa.com',
 		description:
-			'A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.',
-		gitHubLink: 'https://github.com/olawanlejoel/Todo-List-App',
+			'A sample build of a website for a friend of an app for information and sales about tree boas and pythons. Simple admin dashboard allows management of for sale posts. Built with Java/Spring, JSP, and',
+		gitHubLink: 'https://github.com/SamuelGreen800/snakes',
 	},
 	{
 		id: 2,
-		title: 'Books Library App',
+		title: 'Flutter',
 		description:
-			'A simple Book Library App built with JavaScript. It helps readers have a good list of books they are eiter currently reading or have finished reading.',
-		gitHubLink: 'https://github.com/olawanlejoel/Book-Library',
+			'A group project, intended to reinforce collaborative version control. the UI and and some of the models are mine. Built in Python/Flask',
+		gitHubLink: 'https://github.com/cxgraham/group-flutter',
 	},
 	{
 		id: 3,
-		title: 'Quotes Generator',
+		title: 'Project Manager',
 		description:
-			'Helps you generates quotes from about 1600 quotes written by different authors . Quotes are automatically copied to your clipboards.',
-		gitHubLink: 'https://github.com/olawanlejoel/random-quote-generator',
+			'A very simple Project Manager app.',
+		gitHubLink: 'https://github.com/SamuelGreen800/Project-Manager-3',
 	},
-	{
-		id: 4,
-		title: 'Password Generator',
-		description:
-			'Helps you generates random passwords, you can select what you want your password to entail and also you can copy generated password to clipboard.',
-		gitHubLink: 'https://github.com/olawanlejoel/Password-Generator',
-	},
-	{
-		id: 5,
-		title: 'Twitter UI Clone',
-		description:
-			'Simple Twitter UI clone built with TailwindCSS and Vue Js. This covers only the home page of Twitter UI. This is cool to get started with TailwindCSS as it helps understand basic concepts.',
-		gitHubLink: 'https://github.com/olawanlejoel/TwitterUI-clone',
-	},
+	
 ];

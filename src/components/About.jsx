@@ -7,9 +7,9 @@ const About = () => {
             <div className="flex-about">
                 <div className="about-text">
                     <p>
-                    As a developer, I'm trying to figure out how to deploy this shizz.
+                    This site is a work in progress. Although not particularly ready to deploy, it is being developed in production as a learning experience, and to familiarize myself with netlify's CI/CD procedures. 
                     </p>
-                    <p>Throughout my career, I attended coding dojo, and have burnt a lot of stuff</p>
+                    <p>Many thanks to olawanlejoel, renebitter, and leerob. Their designs and code have acted as both the inspiration and guide for this site. </p>
                 </div>
                 <div className="about-img">
                     <Image src='/images/about.jpeg' className="profile-img" width={300} height={500} alt="Joe and animal relaxing and having fun" />

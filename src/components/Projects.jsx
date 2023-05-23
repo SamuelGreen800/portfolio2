@@ -1,6 +1,7 @@
 import { projectData } from './data.js';
 import Image from 'next/image.js';
 
+
 const Projects = () => {
     return (
         <div className="projects-container">
@@ -9,6 +10,7 @@ const Projects = () => {
                 {projectData && projectData.map((project) => (
                     <div className="project-card" key={project.id}>
                         <Image
+            className="project-img"
             src={project.image}
             quality={100}
             height= '200'

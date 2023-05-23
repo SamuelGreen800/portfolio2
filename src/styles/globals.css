@@ -118,6 +118,7 @@ hr {
 }
 
 .hero-container .profile-img {
+
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -210,6 +211,7 @@ hr {
 }
 
 .about-container .flex-about .about-img .profile-img:hover {
+
   filter: grayscale(0%);
   transform: scale(1.02);
 }
@@ -330,6 +332,23 @@ hr {
   margin-bottom: 20px;
 }
 
+.projects-container .project-card .project-img  {
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid #DADADB;
+  filter: grayscale(100%);
+  transition: all 0.5s ease-in-out;
+}
+  
+.projects-container .project-card .project-img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}
+
+
+
+
 .project-card .folder-icon {
   font-size: 35px;
   color: #FFCC17;
@@ -342,6 +361,7 @@ hr {
 
 .project-card .small-icons a {
   margin-right: 5px;
+  height: 20px;
   cursor: pointer;
   transition: all .5s ease;
 }

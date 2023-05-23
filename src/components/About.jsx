@@ -12,7 +12,7 @@ const About = () => {
                     <p>Many thanks to olawanlejoel, renebitter, and leerob. Their designs and code have acted as both the inspiration and guide for this site. </p>
                 </div>
                 <div className="about-img">
-                    <Image src='/images/about.jpeg' className="profile-img" width={300} height={500} alt="Joe and animal relaxing and having fun" />
+                    <Image src='/images/about.jpeg' className="profile-img" width={300} height={500} alt="Harper dog" />
                 </div>
             </div>
         </div>

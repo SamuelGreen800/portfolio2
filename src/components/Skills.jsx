@@ -38,11 +38,11 @@ const Skills = () => {
             </div>
                 <div className="grid-skills-2"> 
                 <div className="skill-card Git">
-                    <i className="fa-brands fa-git-alt"></i>
+                    <i className="fa-brands fa-git-alt fa-2xl"></i>
                     <p>Git</p>
                     </div>
                 <div className="skill-card stack-overflow">
-                    <i className="fa-brands fa-stack-overflow"></i>
+                    <i className="fa-brands fa-stack-overflow fa-2xl"></i>
                     <p>Stack Overflow</p>
                 </div>
                 </div>

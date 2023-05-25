@@ -27,7 +27,25 @@ const Skills = () => {
                     <i className="fa-brands fa-python python-icon"></i>
                     <p>Python</p>
                 </div>
+                <div className="skill-card Java">
+                    <i className="fa-brands fa-java"></i>
+                    <p>Java</p>
+                </div>
+                <div className="skill-card aws">
+                    <i className="fa-brands fa-aws"></i>
+                    <p>aws</p>
+                </div>
             </div>
+                <div className="grid-skills-2"> 
+                <div className="skill-card Git">
+                    <i className="fa-brands fa-git-alt"></i>
+                    <p>Git</p>
+                    </div>
+                <div className="skill-card stack-overflow">
+                    <i className="fa-brands fa-stack-overflow"></i>
+                    <p>Stack Overflow</p>
+                </div>
+                </div>
         </div>
     )
 }

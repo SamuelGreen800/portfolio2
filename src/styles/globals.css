@@ -247,13 +247,35 @@ hr {
   gap: 2rem;
 }
 
+.skills-container .grid-skills-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+  
+}
+
 @media screen and (max-width: 768px) {
   .skills-container .grid-skills {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.skills-container .grid-skills .skill-card {
+.skills-container .skill-card {
+  background-color: #DADADB;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+  cursor: context-menu;
+}
+
+.skills-container .grid-skills-2 .skill-card {
   background-color: #DADADB;
   color: #1D1E20;
   display: flex;
@@ -293,6 +315,20 @@ hr {
 
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
+}
+
+.skills-container .grid-skills .Java:hover {
+  background-color: #5382a1 ;
+}
+
+.skills-container .grid-skills .aws:hover {
+  background-color: #FF9900;
+}
+.skills-container .grid-skills-2 .stack-overflow:hover {
+  background-color: #F47f24;
+}
+.skills-container .grid-skills-2 .Git:hover {
+  background-color: #f1502f;
 }
 
 /* Projects */

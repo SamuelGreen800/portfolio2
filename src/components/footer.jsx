@@ -3,9 +3,7 @@ const Footer = () => {
         <>
             <hr />
             <div className="footer-container">
-                <p>
-                    &copy; {new Date().getFullYear()} Samuel-Green.com
-                </p>
+                
                 <div className="social_icons">
                     <a
                         href="https://github.com/SamuelGreen800"
@@ -25,6 +23,12 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
+                <div className="copyright">
+                        <p>
+                            &copy; {new Date().getFullYear()} Samuel-Green.com
+                        </p>
+            </div>
+
         </>
     )
 }

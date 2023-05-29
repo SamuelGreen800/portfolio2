@@ -6,10 +6,10 @@ const Hero = () => {
             <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} alt="Sam's personal headshot" />
             <div className="hero-text">
                 <h1>I'm Sam Green</h1>
-                <p>
-                    I'm a software developer based in Saint Petersburg, FL. <br/>
-                    I build things in JavaScript, Python, and Java
-                </p>
+                <h3>
+                    I'm a Web Dev based in Saint Petersburg, FL </h3>
+                <p className="text-secondary"> I build things in JavaScript, Python, and Java
+                    </p>
                 <div className="social-icons">
                     
                     <a

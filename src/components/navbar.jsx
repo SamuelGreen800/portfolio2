@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="logo">
                 <Link href="/">
                 <Image
-            src='/images/favicon.ico'
+            src='/images/favicon-3.png'
             width={45}
             height={45}
             alt='profile-pic'

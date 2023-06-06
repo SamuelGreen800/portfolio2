@@ -170,6 +170,23 @@ hr {
   margin-bottom: 1rem;
 }
 
+.fade-in {
+  color: #adbac7;
+  transition: opacity 1.5s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.flash-icon{
+  color: #FFFF00;
+}
+
+
+
+
 .hero-container .social-icons {
   display: flex;
   justify-content: center;

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { propTypes } from "prop-types";
 import Hero from "./Hero";
 
 

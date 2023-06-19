@@ -28,13 +28,5 @@ const Fader = ({ text, icon }) => {
         <span className={fadeProp.fade}> {icon} {text} </span>
     )
 
-    Fader.defaultProps = {
-        text: 'Javascript',
-    }
-
-    Fader.propTypes = {
-        text: propTypes.string
-    }
-
 }
 export default Fader

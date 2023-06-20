@@ -180,10 +180,17 @@ hr {
   transition: opacity 1.5s ease;
 }
 
-.flash-icon{
+.flash-icon-js{
   color: #FFFF00;
 }
 
+.flash-icon-python{
+  color: #4b8bbe;
+}
+
+.flash-icon-java{
+  color: #ed1d25;
+}
 
 
 

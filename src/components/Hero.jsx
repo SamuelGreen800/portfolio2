@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1>I'm Sam Green</h1>
                 <h3>
                     I'm a Web Dev based in Saint Petersburg, FL </h3>
-                <p className="text-secondary"> I build things in <Fader text="Javascript" icon = {<i className="fa-brands fa-js-square js-icon flash-icon"></i>}> </Fader>
+                <p className="text-secondary"> I build things in  <Fader> </Fader>
                     </p>
                 <div className="social-icons">
                     

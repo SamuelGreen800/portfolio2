@@ -3,7 +3,7 @@ import About from '@/components/About';
 import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
-
+import Section from '@/components/navbar'
 import Head from 'next/head';
 
 const Home = () => {
@@ -17,10 +17,10 @@ const Home = () => {
 			</Head>
 			<div>
 				<Hero />
-				<About />
-				<Skills />
+				<About/>
+				<Skills title="skills"/>
 				<Projects />
-				<Contact />
+				<Contact/>
 			</div>
 		</>
 	);

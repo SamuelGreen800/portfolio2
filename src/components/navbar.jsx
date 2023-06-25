@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Link as Link1, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
     return (
